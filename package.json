@@ -1,0 +1,34 @@
+{
+  "name": "2020-to-mouse-babel-plugin",
+  "version": "0.0.1",
+  "description": "This is a babel plugin that converts '2020' to '🐭🐭🐭🐭'.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinshin86/2020-to-mouse-babel-plugin.git"
+  },
+  "keywords": [
+    "2020-to-mouse-babel-plugin",
+    "babel-plugin"
+  ],
+  "author": "shinshin86 <shinshin86npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinshin86/2020-to-mouse-babel-plugin/issues"
+  },
+  "homepage": "https://github.com/shinshin86/2020-to-mouse-babel-plugin",
+  "scripts": {
+    "dev": "babel ./example/index.js",
+    "test": "jest",
+    "fmt": "prettier --write '**/*.{js,json,md}'"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "babel-plugin-tester": "^8.0.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  }
+}

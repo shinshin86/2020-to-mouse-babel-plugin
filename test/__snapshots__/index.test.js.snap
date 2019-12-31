@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-2020-to-mouse-plugin 2020-to-mouse-babel-plugin: 2020-to-mouse-babel-plugin 1`] = `
+
+console.log("Hello 2020!");
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+console.log("Hello \\uD83D\\uDC2D\\uD83D\\uDC2D\\uD83D\\uDC2D\\uD83D\\uDC2D!");
+
+
+`;
