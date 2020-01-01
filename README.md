@@ -14,16 +14,20 @@ console.log("Hello \\uD83D\\uDC2D\\uD83D\\uDC2D\\uD83D\\uDC2D\\uD83D\\uDC2D!");
 
 This is joke repository! Do not use in development and production.
 
-## Usage(WIP)
+## Usage
 
-**This is WIP. Because not publish to npm yet.**
+Install
+
+```bash
+npm install --save https://github.com/shinshin86/2020-to-mouse-babel-plugin.git
+```
 
 Setup `.babelrc`
 
 ```
 {
   "plugins": [
-    [ "2020-to-mouse-babel-plugin"]
+    [ "module:2020-to-mouse-babel-plugin"]
   ]
 }
 ```
