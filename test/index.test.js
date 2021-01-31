@@ -7,7 +7,7 @@ pluginTester({
   tests: [
     {
       title: "2020-to-mouse-babel-plugin",
-      code: 'console.log("Hello 2020!");'
-    }
-  ]
+      code: 'console.log("Hello 2020!");',
+    },
+  ],
 });
