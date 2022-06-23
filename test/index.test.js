@@ -3,6 +3,7 @@ const pluginTester = require("babel-plugin-tester").default;
 
 pluginTester({
   plugin,
+  pluginName: "2020-to-mouse-babel-plugin",
   snapshot: true,
   tests: [
     {
